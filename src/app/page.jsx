@@ -63,13 +63,13 @@ export default function Home() {
           <div className="col-12 display-2 text-center mx-auto fw-bold text-black " style={{ marginTop: '250px' }}>
             Fetch API App ッ
           </div>
-          <div className="fs-6 mx-auto text-center pe-5 text-black fw-bold">
+          <div className="fs-6 mx-auto text-center mt-2  text-black fw-bold">
             Web-App using Next.js For Beginners. <br /> Change Value and you will notice Changing of the images.
           </div>
         </div>
 
         <div className="row">
-          <input type="text" onChange={handleEvent} className='col-4 p-2 mx-auto text-start mt-5 rounded-3 ' placeholder='Change Id Value {Number Only }' />
+          <input type="text" onChange={handleEvent} className='col-9 col-sm-6 col-md-4 p-2 mx-auto text-start mt-5 rounded-3 ' placeholder='Change Id Value {Numbers Only}' />
         </div>
 
 
